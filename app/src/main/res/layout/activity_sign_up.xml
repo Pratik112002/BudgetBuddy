@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/sign_in"
+        android:layout_marginTop="15dp">
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/poppins"
+        android:layout_marginStart="20sp"
+        android:textColor="@color/black">
+    </TextView>
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20sp"
+        android:elegantTextHeight="true"
+        android:hint="@string/email_id"
+        android:importantForAutofill="yes"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#546E7A"
+        android:singleLine="true"
+        android:autofillHints="emailAddress"
+        tools:ignore="TextFields,VisualLintTextFieldSize">
+    </EditText>
+    <EditText
+        android:id="@+id/txt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20sp"
+        android:autofillHints="name"
+        android:elegantTextHeight="true"
+        android:hint="Full Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#546E7A"
+        android:singleLine="true"
+        tools:ignore="TextFields,VisualLintTextFieldSize">
+    </EditText>
+
+    <EditText
+        android:id="@+id/txt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20sp"
+        android:autofillHints="password"
+        android:elegantTextHeight="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColorHint="#546E7A"
+        tools:ignore="TextFields,VisualLintTextFieldSize">
+    </EditText>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        android:layout_width="287dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Continue"
+        android:textColor="@color/white"
+        android:textSize="20sp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Joined us before."
+            android:fontFamily="@font/poppins"/>
+
+        <TextView
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:fontFamily="@font/poppins"
+            android:text="@string/login"
+            android:textStyle="bold"
+            tools:ignore="TouchTargetSizeCheck" />
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

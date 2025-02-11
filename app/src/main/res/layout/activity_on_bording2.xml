@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".onbording.OnBording2">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="20dp"
+        android:text="@string/how_much_do_you_earn_per_month"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corn"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/txt_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:hint="@string/enter_amount"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColorHint="#A1887F"
+            android:textSize="20sp"
+            tools:ignore="VisualLintTextFieldSize"></EditText>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="20dp"
+        android:text="@string/enter_your_profession"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corn"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/txt_profession"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:hint="@string/enter_profession"
+            android:importantForAutofill="no"
+            android:textColorHint="#A1887F"
+            android:textSize="20sp"
+            tools:ignore="TextFields,VisualLintTextFieldSize"></EditText>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="20dp"
+        android:text="@string/where_do_you_live"
+        android:textSize="30sp"
+        android:textStyle="bold">
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_corn"
+        android:importantForAutofill="no"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/txt_live"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="@font/poppins"
+            android:hint="Enter City"
+            android:textColorHint="#A1887F"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText,TextFields,VisualLintTextFieldSize"></EditText>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        android:layout_width="287dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="continue"
+        android:textColor="#607D8B"
+        android:textSize="20sp">
+    </androidx.appcompat.widget.AppCompatButton>
+
+</LinearLayout>

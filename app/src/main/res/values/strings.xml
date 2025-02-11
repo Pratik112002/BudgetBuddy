@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">BudgetBuddy</string>
+    <string name="password">Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="login">Login</string>
+    <string name="new_to_budgetbuddy">New to BudgetBuddy?</string>
+    <string name="register">Register</string>
+    <string name="how_much_do_you_earn_per_month">How much do you earn per Month?</string>
+    <string name="enter_your_profession">Enter your profession.</string>
+    <string name="where_do_you_live">Where do you live?</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="enter_profession">Enter Profession</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
